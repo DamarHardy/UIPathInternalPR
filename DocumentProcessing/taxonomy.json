@@ -403,6 +403,34 @@
           ]
         }
       ]
+    },
+    {
+      "DocumentTypeId": "Financial.Multipolar.Multipolar-Report",
+      "Group": "Financial",
+      "Category": "Multipolar",
+      "Name": "Multipolar-Report",
+      "OptionalUniqueIdentifier": null,
+      "TypeField": {
+        "FieldId": "Financial.Multipolar.Multipolar-Report.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "Financial.Multipolar.Multipolar-Report.NetSales",
+          "FieldName": "Net Sales",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "RequiresReference",
+              "Value": "true"
+            }
+          ]
+        }
+      ]
     }
   ],
   "Groups": [
@@ -422,6 +450,7 @@
     {
       "Name": "Financial",
       "Categories": [
+        "Multipolar",
         "Reports"
       ]
     },

@@ -9,6 +9,7 @@
     "UiPath.Mail.Activities": "[1.9.5]",
     "UiPath.OmniPage.Activities": "1.7.0",
     "UiPath.OmniPage.Bundle.Extended": "1.0.2",
+    "UiPath.PDF.Activities": "3.3.0",
     "UiPath.QRCodeLib.Activities": "3.0.4",
     "UiPath.System.Activities": "[20.10.3]",
     "UiPath.UIAutomation.Activities": "[20.10.8]"
@@ -55,5 +56,6 @@
   ],
   "isTemplate": false,
   "templateProjectData": {},
-  "publishData": {}
+  "publishData": {},
+  "targetFramework": "Legacy"
 }
